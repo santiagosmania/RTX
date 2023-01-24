@@ -18,7 +18,7 @@ if (respuesta == "Si"){
 
 
 
-let ingreseContraseña = parseInt(prompt("Ingrese Cualquier Contraseña"));
+let ingreseContraseña = parseInt(prompt("Ingrese una Contraseña"));
 
 let marca = prompt("Ingrese la marca de la placa de video");
 let modelo = prompt("Ingrese el modelo de la placa de Video");
@@ -75,11 +75,11 @@ if (marca === "NVIDIA") {
 
 
 
-let cant = parseInt(prompt("Escriba la cantiadad de productos que quiere"));
+let cant = parseInt(prompt("Escriba la cantidad de productos que quiere"));
 
 
 let preciofinal = cant * precio
 
 
-alert(precifinal);
+alert(preciofinal);
 
