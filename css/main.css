@@ -57,8 +57,11 @@ h1{
 }
 
 
-.card{
+.row{
     display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+
 }
 
 
@@ -85,7 +88,12 @@ footer{
 
 .navbar-nav{
     font-weight: 1000;
+    margin-left: 35%;
 }
+
+
+
+
 
 .navbar-nav A:hover {
   
@@ -97,29 +105,8 @@ footer{
     
 }
 
-
-@media screen and (max-width: 768px) {
-    .ul{
-        font-size: .4em;
-    }
-
-   body{
+h1{
     text-align: center;
-    width: auto;
-   }
-
-    .info{
-        flex-wrap: wrap;
-    }
-
-
-    .section{
-        display: grid;
-        min-height: 50vh;
-        grid-template-columns: repeat(4, 1fr); 
-        grid-template-rows: 15vh 1fr 15vh;
-        
-    }
-
 }
+
 
