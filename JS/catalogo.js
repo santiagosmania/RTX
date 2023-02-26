@@ -18,7 +18,7 @@ const productos = [
         destino: 'placa',
         imagen: './images/rtx3090.jpg',
         valor: 350000
-    }
+    },
   
 ]
 
