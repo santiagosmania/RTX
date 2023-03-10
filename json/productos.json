@@ -1,0 +1,6 @@
+[
+    {"id": 1,"nombre":"RTX 3070", "precio":250000, "img":"./images/rtx3070.png"},
+    {"id": 2,"nombre":"RTX 3080", "precio":300000, "img":"./images/rtx3080.webp"},
+    {"id": 3,"nombre":"RTX 3090", "precio":350000, "img":"./images/rtx3090.jpg"}
+   
+]
