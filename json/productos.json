@@ -2,12 +2,12 @@
     {"id": 1,"nombre":"RTX 3070", "precio":250000, "img":"./images/rtx3070.png"},
     {"id": 2,"nombre":"RTX 3080", "precio":300000, "img":"./images/rtx3080.webp"},
     {"id": 3,"nombre":"RTX 3090", "precio":350000, "img":"./images/rtx3090.jpg"},
-    {"id":5, "nombre": "Intel Core I3 12100F", "precio": 49000, "img":"./images/i3.jpg"},
-    {"id":6, "nombre": "Intel Core I5 12400F", "precio": 83000, "img":"./images/i5.webp"},
-    {"id":7, "nombre": "Intel Core I7 11700F", "precio": 12000, "img":"./images/i7.jpg"},
-    {"id":8, "nombre": "Ryzen 3 4100", "precio": 35000, "img":"./images/R3.webp"},
-    {"id":9, "nombre": "Ryzen 5 5600", "precio": 76000, "img":"./images/R5.png"},
-    {"id":4, "nombre": "Ryzen 7 5700X", "precio": 145000, "img":"./images/R7.webp"}
+    {"id":4, "nombre": "Intel Core I3 12100F", "precio": 49000, "img":"./images/i3.jpg"},
+    {"id":5, "nombre": "Intel Core I5 12400F", "precio": 83000, "img":"./images/i5.webp"},
+    {"id":6, "nombre": "Intel Core I7 11700F", "precio": 12000, "img":"./images/i7.jpg"},
+    {"id":7, "nombre": "Ryzen 3 4100", "precio": 35000, "img":"./images/R3.webp"},
+    {"id":8, "nombre": "Ryzen 5 5600", "precio": 76000, "img":"./images/R5.png"},
+    {"id":9, "nombre": "Ryzen 7 5700X", "precio": 145000, "img":"./images/R7.webp"}
   
     
    
