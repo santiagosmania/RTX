@@ -256,3 +256,38 @@ const eliminarTodoElCarrito = () => {
 
 
 
+const finalizarCompra = document.getElementById("finalizarCompra");
+
+finalizarCompra.addEventListener("click", () => {
+  
+    
+    Swal.fire( {
+        title: "¿Estas seguro de eliminar los fideos?", 
+        icon: "warning", 
+        confirmButtonText: "Aceptar", 
+        showCancelButton: true, 
+        cancelButtonText: "Cancelar"
+    }).then((result) => {
+        if(result.isConfirmed) {
+            carrito = carrito.filter(producto => producto !== "fideos");
+            console.log(carrito);
+            Swal.fire({
+                title:"Producto Eliminado!",
+                icon: "success",
+                confirmButtonText: "Aceptar"
+            })
+        }
+    })
+
+
+
+    eliminarTodoElCarrito()
+  
+  
+
+
+
+})
+   
+    
+
