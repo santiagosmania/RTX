@@ -35,7 +35,7 @@ if(localStorage.getItem("carrito")){
     carrito = JSON.parse(localStorage.getItem("carrito"));
 }
 
-const urlLocal = "productos.json";
+const urlLocal = "./json/productos.json";
 
 fetch(urlLocal)
     .then(response => response.json())
